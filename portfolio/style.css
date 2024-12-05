@@ -1,0 +1,96 @@
+*{
+    background-color: black;
+}
+
+nav {
+    float:right;
+    margin:3em;
+}
+
+nav ul{
+    margin: 0 3em;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 2em;
+
+}
+
+nav ul li h1{
+    color: white;
+    text-align: left;
+    font-size: 35px;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+nav ul li a:hover{
+    color: rgb(226, 74, 74);
+    transition-duration: 0.4s;
+}
+
+.navbar h1{
+    color:white;
+    position: absolute;
+    top:2.7%;
+    left:5%;
+}
+
+.logo{
+    color: white;
+    display: flex;
+}
+.content{
+    position:absolute;
+    top:20%;
+    left:60%;
+    color:white
+    
+}
+
+.content h1{
+    font-size: 60px;
+    color: white;
+    width:80%
+}
+
+.content p{
+    font-size: 40px;
+    width:60%
+}
+
+.content button{
+    background-color: black;
+    padding:15px;
+    padding: 16px 32px;
+    border: 2px solid white;
+    color:white;
+    font-size:25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.content button:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.image{
+    position:absolute;
+    margin-right:45%;
+    margin-left: 15%;
+    margin-top:10%;
+    border-radius: 30;
+}
